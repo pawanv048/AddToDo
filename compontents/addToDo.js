@@ -18,6 +18,7 @@ const AddToDo = ({ submitHandler }) => {
                 onChangeText={changeHandler}
             />
             <Button onPress={() => submitHandler(text)} title="Add Todo" color="coral" />
+            <View />
         </View>
     )
 }
